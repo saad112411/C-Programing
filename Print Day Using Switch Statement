@@ -1,0 +1,28 @@
+//write a program to show a day
+#include <stdio.h>
+int main(){
+    char day;
+    printf("Enter a number between 0-7 \n");
+    scanf("%s",&day);
+    switch (day){
+        case 'a' :printf("Friday \n");
+                break;
+        case 'b' :printf("Satarday\n");
+                break;
+        case 'c' :printf("sunday\n");
+                break;
+        case 'e' :printf("Monday\n");
+                break;
+        case 'k' :printf("Tueasday\n");
+                break;
+        case 'g' :printf("Wednesday\n");
+                break;
+        case 'p' :printf("Thursday\n");
+                break;
+        default :printf("invalid Input");
+
+  
+    }
+            return 0;
+
+}
