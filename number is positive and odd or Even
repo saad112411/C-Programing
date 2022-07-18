@@ -1,0 +1,18 @@
+// Write a program to show number is positive and odd or Even
+# include <stdio.h>
+int main(){
+    int number;
+    printf("Enter the number : \n");
+    scanf("%d",&number);
+    if(number>=0){
+        printf("number %d is positive \n",number);
+        if(number%2==0)
+        {
+            printf("number %d is Even \n",number);
+        }else
+        {
+          printf("number %d is Odd ",number);  
+        }
+    }
+    return 0;
+}
