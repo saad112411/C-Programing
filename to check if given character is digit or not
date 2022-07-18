@@ -1,0 +1,14 @@
+# include <stdio.h>
+# include <ctype.h>
+int main(){
+    char number;
+    printf("enter a number \n");
+    scanf("%c",&number);
+    if(isdigit(number)){
+        printf("yes");
+    }
+    else{
+        printf("no");
+    }
+    return 0;
+}
