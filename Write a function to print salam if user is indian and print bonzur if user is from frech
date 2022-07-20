@@ -1,0 +1,27 @@
+// Write a function to print salam if user is indian and print bonzur if user is from frech
+# include <stdio.h>
+
+void printsalam(){
+    printf("assalamualikum");
+}
+void printfrench(){
+    printf("bonzure");
+}
+int main(){
+    printf("Enter I for India and F for frech \n");
+    char c;
+    scanf("%c",&c);
+    if(c=='I'){
+        printsalam();
+    }
+    else
+    {
+        if(c=='F')
+        {
+                    printfrench();
+        }else{
+            printf("Invalid input");
+        }
+    }
+    return 0;
+}
