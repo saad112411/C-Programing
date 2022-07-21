@@ -1,0 +1,13 @@
+# include <stdio.h>
+int sum(int n){
+    if(n==1){
+        return 1;
+    }
+  int  sumNmo =sum(n-1);
+ int   sumoN=sumNmo+n;
+    return sumoN;
+}
+int main(){
+printf("The sum of natural number is %d \n",sum(5));
+return 0;
+}
