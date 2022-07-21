@@ -1,0 +1,14 @@
+# include <stdio.h>
+int factorial(int n){
+    if(n==1){
+        return 1;
+    }
+    int fact1 =factorial(n-1);
+    int factf =fact1*n;
+    return factf;
+}
+int main(){
+    
+    printf("%d",factorial(3));
+    return 0;
+}
