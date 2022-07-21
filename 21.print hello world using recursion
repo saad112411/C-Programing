@@ -1,0 +1,13 @@
+# include <stdio.h>
+void printhello(int n){
+    if(n==0){
+        return;
+    }
+    printf("hellow world \n");
+    printhello(n-1);
+    
+}
+int main(){
+    printhello(10);
+    return 0;
+}
