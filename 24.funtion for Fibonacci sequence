@@ -1,0 +1,22 @@
+#include <stdio.h>
+int febonacchi(int n);
+int main() {
+    int n;
+    printf("%d",febonacchi(11));
+    return 0;
+}
+int febonacchi(int n){
+    int  a=0;
+    int  b=1;
+    int c;
+    if(a==0 & b==1){
+        printf("%d  \n",a);
+     int c=a+b;
+    }
+     for(int i=1; i<=n; i++){
+        a=b;
+        b=c;
+        c=a+b;
+         printf("%d  \n",c);
+}
+}
